@@ -8,3 +8,6 @@ En esta clase se realizo la instalació del proyecto, las dependencias y la conf
 Clase 42.- Single File components(SFA) en vue.js-CSS,JS HTML en un solo archivo.
 
 Clase 43.- En esta clase se modifico el componente App.vue y se creo una constante el cual posteriormente se pinto sobre la pantalla.
+
+Clase 44.- de html a vue js.
+En esta clase se agrego la pagina principal, se agregaron las imagenes estaticas y se coloco contenido css.
