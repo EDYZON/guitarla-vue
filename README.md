@@ -4,3 +4,5 @@ En esta clase se vio la introducción del proyecto a construir, se vio un bosque
 
 Clase 41.- Creando nuestro primer proyecto con vite.
 En esta clase se realizo la instalació del proyecto, las dependencias y la configuración de la misma.
+
+Clase 42.- Single File components(SFA) en vue.js-CSS,JS HTML en un solo archivo.
