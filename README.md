@@ -18,3 +18,6 @@ En esta clase se realiza la introducción entre las 2 formas actuales de usar vu
 
 Clase 46.- Que es el state en vue.js?, y diferencias entre ref y reactive.
 En esta clase se realizo la introducción de dos metodos que sirven para almacenar estados de variables y se mostraron las diferencias entre una y otra.
+
+Clase 47.- Añadiendo datos al state con reactive
+En esta clase se añadieron datos al state mediante reactive, se le agrego una colección de 13 objetos que seran usados en la sig. clase.
