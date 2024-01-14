@@ -11,3 +11,6 @@ Clase 43.- En esta clase se modifico el componente App.vue y se creo una constan
 
 Clase 44.- de html a vue js.
 En esta clase se agrego la pagina principal, se agregaron las imagenes estaticas y se coloco contenido css.
+
+Clase 45.- API styles en vue.js y diferencias entre ref y reactive.
+En esta clase se realiza la introducción entre las 2 formas actuales de usar vue, con composition api o options, se proporcionan ejemplos y casos de uso.
