@@ -24,3 +24,6 @@ En esta clase se añadieron datos al state mediante reactive, se le agrego una c
 
 Clase 48.- Añadiendo Datos al state con ref
 En esta clase se realizaron las practicas de inserción de datos usando ref reactive..
+
+Clase 49.- Iterando sobre el state y en son las directivas en vue.js
+En esta clase se eliminaron todas las entradas estaticas de guitarras y se procedio a iterar el objeto de guitarras con la ayuda de la directiva v-for
