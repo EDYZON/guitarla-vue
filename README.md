@@ -21,3 +21,6 @@ En esta clase se realizo la introducción de dos metodos que sirven para almacen
 
 Clase 47.- Añadiendo datos al state con reactive
 En esta clase se añadieron datos al state mediante reactive, se le agrego una colección de 13 objetos que seran usados en la sig. clase.
+
+Clase 48.- Añadiendo Datos al state con ref
+En esta clase se realizaron las practicas de inserción de datos usando ref reactive.
