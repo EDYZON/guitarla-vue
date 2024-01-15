@@ -27,3 +27,5 @@ En esta clase se realizaron las practicas de inserción de datos usando ref reac
 
 Clase 49.- Iterando sobre el state y en son las directivas en vue.js
 En esta clase se eliminaron todas las entradas estaticas de guitarras y se procedio a iterar el objeto de guitarras con la ayuda de la directiva v-for
+
+Clase 50.- Creando un componente en Vue.js y pasando los datos con props.
