@@ -31,3 +31,5 @@ En esta clase se eliminaron todas las entradas estaticas de guitarras y se proce
 Clase 50.- Creando un componente en Vue.js y pasando los datos con props.
 
 Clase 51.- Finalizando el componente de Guitarra, atributos dinamicos y más
+
+Clase 52.- Eventos en Vue.js -  Inine Handlers y Method Handlers

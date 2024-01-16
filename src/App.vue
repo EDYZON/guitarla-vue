@@ -3,18 +3,17 @@
 import { db } from './data/guitarras'
 import Guitarra from './components/guitarra.vue'
 
-  /*const state = reactive({
-     guitarras: db
-  })*/
- //console.log(state.guitarras)
-
-
 const guitarras = ref([]) 
 //console.log(guitarras.value)
 
 onMounted(()=>{
   guitarras.value = db;
 });
+
+const incrementar = ()=>{
+   alert('diste click')
+ }
+
 </script>
 
 <template>
