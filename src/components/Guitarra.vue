@@ -10,6 +10,8 @@ const numero = ref(0);
     }
  })
 
+ defineEmits(['agregar-carrito'])
+
 
 </script>
 
@@ -29,7 +31,7 @@ const numero = ref(0);
             <button 
                 type="button"
                 class="btn btn-dark w-100"
-                v-on:click="incrementar"
+                @click="$emit('agregar-carrito')"
             >
             Agregar al Carrito
         </button>
