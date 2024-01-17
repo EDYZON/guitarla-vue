@@ -4,14 +4,12 @@ import { db } from './data/guitarras'
 import Guitarra from './components/guitarra.vue'
 
 const guitarras = ref([]) 
-//console.log(guitarras.value)
-
 onMounted(()=>{
   guitarras.value = db;
 });
 
-const agregarCarrito = ()=>{
-   alert('diste click')
+const agregarCarrito = (guitarra)=>{
+   alert(guitarra)
  }
 
 </script>

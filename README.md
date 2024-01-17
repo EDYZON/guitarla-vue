@@ -35,3 +35,5 @@ Clase 51.- Finalizando el componente de Guitarra, atributos dinamicos y más
 Clase 52.- Eventos en Vue.js -  Inine Handlers y Method Handlers
 
 Clase 53.- Eventos en Componenetes Personalizados.
+
+Clase 54.- Pasar información de un componente hijo al padre con $emit
