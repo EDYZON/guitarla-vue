@@ -41,3 +41,5 @@ Clase 54.- Pasar información de un componente hijo al padre con $emit
 Clase 55.- Emitiendo un evento para añadir elemetos al carrito
 
 Clase 56.- Creando el Header y el Footer
+
+Clase 57.- Detectando si el carrito esta vacio.
