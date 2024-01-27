@@ -12,27 +12,21 @@ onMounted(()=>{
   guitarras.value = db;
 });
 
-const agregarCarrito = (guitarra)=>{
-   guitarra.cantidad = 1;
-   carrito.value.push(guitarra); 
- }
+const agregarCarrito = (guitarra) => {
+        guitarra.cantidad = 1;
+        carrito.value.push(guitarra)
+        const existeCarrito = carrito.value.findIndex(producto => producto.id === guitarra.id)
+        if(existeCarrito >= 0) {
+            carrito.value[existeCarrito].cantidad++;
+        } else {
+            guitarra.cantidad = 1;
+            carrito.value.push(guitarra)
+        }
+    }
 
 </script>
 
 <template>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuitarLA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./src/style.css">
-</head>
-<body>
     <Header 
     :carrito="carrito"
     />
@@ -47,11 +41,6 @@ const agregarCarrito = (guitarra)=>{
         </div>
     </main>
     <Footer></Footer>
-
-
-
-</body>
-</html>
 </template>
 
 <style scoped>

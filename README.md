@@ -45,3 +45,5 @@ Clase 56.- Creando el Header y el Footer
 Clase 57.- Detectando si el carrito esta vacio.
 
 Clase 58.- Mostrando el contenido del carrito.
+
+Clase 59.- Eliminar Elementos duplicados en el carrito
