@@ -36,6 +36,9 @@ const agregarCarrito = (guitarra) => {
         if(carrito.value[index].cantidad >= 5) return
         carrito.value[index].cantidad ++;
     }
+    const eliminarProducto = (id) => {
+        carrito.value = carrito.value.filter(producto => producto.id !== id)
+    }
 
 </script>
 
@@ -54,6 +57,7 @@ const agregarCarrito = (guitarra) => {
                  v-for="guitarra in guitarras"
                  v-bind:guitarra="guitarra"
                  @agregar-carrito="agregarCarrito"
+                 @eliminar-producto="eliminarProducto"
              />
         </div>
     </main>

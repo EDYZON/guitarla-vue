@@ -55,3 +55,5 @@ Clase 61.- Actualizando las cantidades del carrito
 Clase 62.- Mostrando la información de la guitarra principal
 
 Clase 63.- Calculando el Total a pagar con un Computed Property
+
+Clase 64.- Eliminar Artículos del Carrito
