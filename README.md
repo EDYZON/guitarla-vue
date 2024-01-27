@@ -49,3 +49,5 @@ Clase 58.- Mostrando el contenido del carrito.
 Clase 59.- Eliminar Elementos duplicados en el carrito
 
 Clase 60.- Añadiendo 2 eventos nuevos, añadir y disminuir la cantidad de articulos
+
+Clase 61.- Actualizando las cantidades del carrito
