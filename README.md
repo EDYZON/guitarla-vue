@@ -52,4 +52,6 @@ Clase 60.- Añadiendo 2 eventos nuevos, añadir y disminuir la cantidad de artic
 
 Clase 61.- Actualizando las cantidades del carrito
 
-Clase 62. Mostrando la información de la guitarra principal
+Clase 62.- Mostrando la información de la guitarra principal
+
+Clase 63.- Calculando el Total a pagar con un Computed Property
