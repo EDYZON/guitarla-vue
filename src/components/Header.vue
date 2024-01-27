@@ -1,10 +1,14 @@
 <script setup>
-  const prop = prop.defineProps({
-      carrito:{
-        type:Array,
-        required: true
-      }
-  });
+  const props = defineProps({
+        carrito: {
+            type: Array,
+            required: true
+        },
+        guitarra: {
+            type: Object,
+            required: true
+        }
+    })
 </script>
 
 <template>
@@ -38,13 +42,21 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr
+                                          v-for="producto in carrito"
+                                        >
                                             <td>
-                                                <img class="img-fluid" src="/img/guitarra_02.jpg" alt="imagen guitarra">
+                                                <img 
+                                                  class="img-fluid" 
+                                                  :src="'/img/' + producto.imagen+'.jpg'" 
+                                                  :alt="'imagen guitarra' + producto.nombre"
+                                                  >
                                             </td>
-                                            <td>SRV</td>
+                                            <td>
+                                                {{ producto.nombre }}
+                                            </td>
                                             <td class="fw-bold">
-                                                    $299
+                                                  $ {{ producto.precio }}
                                             </td>
                                             <td class="flex align-items-start gap-4">
                                                 <button
@@ -53,7 +65,7 @@
                                                 >
                                                     -
                                                 </button>
-                                                    1
+                                                  {{ producto.cantidad }}
                                                 <button
                                                     type="button"
                                                     class="btn btn-dark"
@@ -72,8 +84,13 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-end">Total pagar: <span class="fw-bold">$899</span></p>
-                                <button class="btn btn-dark w-100 mt-3 p-2">Vaciar Carrito</button>
+                                <p class="text-end">Total pagar: <span class="fw-bold">
+                                    $899</span></p>
+                                <button 
+                                  class="btn btn-dark w-100 mt-3 p-2"
+                                  >
+                                  Vaciar Carrito
+                                </button>
 
                             </div>
 
@@ -90,6 +107,7 @@
                     <button 
                         type="button"
                         class="btn fs-4 bg-primary text-white py-2 px-5"
+                        @click="$emit('agregar-carrito', guitarra)"
                     >Agregar al Carrito</button>
                 </div>
                 
