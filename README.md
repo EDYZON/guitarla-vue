@@ -47,3 +47,5 @@ Clase 57.- Detectando si el carrito esta vacio.
 Clase 58.- Mostrando el contenido del carrito.
 
 Clase 59.- Eliminar Elementos duplicados en el carrito
+
+Clase 60.- Añadiendo 2 eventos nuevos, añadir y disminuir la cantidad de articulos
