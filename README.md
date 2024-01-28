@@ -61,3 +61,5 @@ Clase 64.- Eliminar Artículos del Carrito
 Clase 65.- Reto 01 - Vaciar Carrito
 
 Clase 66.- Solución Reto 01 - Vaciar carrito
+
+Clase 67.- Almacenar carrito en LocalSorage
