@@ -10,7 +10,8 @@ const carrito   = ref([])
 const guitarra = ref({})
 
 onMounted(()=>{
-  guitarra.value = db[3]
+        guitarras.value = db;
+        guitarra.value = db[3]
 });
 
 const agregarCarrito = (guitarra) => {
