@@ -40,6 +40,9 @@ const agregarCarrito = (guitarra) => {
     const eliminarProducto = (id) => {
         carrito.value = carrito.value.filter(producto => producto.id !== id)
     }
+    const vaciarCarrito = ()=>{
+        carrito.value = []
+    }
 
 </script>
 
@@ -50,6 +53,7 @@ const agregarCarrito = (guitarra) => {
     @decrementar-cantidad="decrementarCantidad"
     @incrementar-cantidad="incrementarCantidad"
     @agregar-carrito="agregarCarrito"
+    @vaciar-carrito = "vaciarCarrito"
     />
     <main class="container-xl mt-5">
         <h2 class="text-center">Nuestra Colección</h2>
