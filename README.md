@@ -65,3 +65,8 @@ Clase 66.- Solución Reto 01 - Vaciar carrito
 Clase 67.- Almacenar carrito en LocalSorage
 
 Clase 68.- Añadiendo Watch para observar los cambios en un state y recapitulando.
+
+Clase 69.- Deployment de proyectos de vue js en netlify
+
+-La aplicación final fue deployado en netlify y puede visitarse en la siguiente url: 
+https://65b6d680b63420ab6a35ae0f--silver-halva-70ea59.netlify.app/
