@@ -63,3 +63,5 @@ Clase 65.- Reto 01 - Vaciar Carrito
 Clase 66.- Solución Reto 01 - Vaciar carrito
 
 Clase 67.- Almacenar carrito en LocalSorage
+
+Clase 68.- Añadiendo Watch para observar los cambios en un state y recapitulando.
